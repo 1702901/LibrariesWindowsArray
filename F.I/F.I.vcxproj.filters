@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\String">
+      <UniqueIdentifier>{f172bb52-ab7b-48dd-a424-182eda9441f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\char">
+      <UniqueIdentifier>{b5b755f0-8e9d-4814-9f9d-399867cb17ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Constantes">
+      <UniqueIdentifier>{f61781b1-f6fc-4ba2-a0f8-6f87defc62c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\MultiArrayThings">
+      <UniqueIdentifier>{b4d4af34-9fd3-4eae-ab7b-98b1f6f2f7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Matrix">
+      <UniqueIdentifier>{22c5db03-f60f-4ff2-8d76-37bc0e682f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\CalcularTempsExecucio">
+      <UniqueIdentifier>{d4caaa87-4dbc-47e4-9791-ae60b5f4f7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Temps">
+      <UniqueIdentifier>{1cade683-2844-4dd5-b4e3-50e3a2a50974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="InicialitzarArray.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="CercarArray.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="MostrarVector.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctionsArray.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="variarArray.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="charIcialitzador.cpp">
+      <Filter>Archivos de recursos\String</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Archivos de recursos\MultiArrayThings</Filter>
+    </ClCompile>
+    <ClCompile Include="temps.cpp">
+      <Filter>Archivos de recursos\CalcularTempsExecucio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="InicialitzarArray.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="cercarArray.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="mostrarVector.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="variarArray.h">
+      <Filter>Archivos de origen</Filter>
+    </ClInclude>
+    <ClInclude Include="char.h">
+      <Filter>Archivos de origen\char</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Archivos de origen\Constantes</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Archivos de origen\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="temps.h">
+      <Filter>Archivos de origen\Temps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

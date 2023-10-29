@@ -1,0 +1,1 @@
+void subtituirNegatiusPer0(int vector[], int tamany);

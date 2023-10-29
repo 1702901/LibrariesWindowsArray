@@ -1,0 +1,10 @@
+﻿  InicialitzarArray.cpp
+C:\Users\andre\source\repos\F.I\F.I\InicialitzarArray.cpp(73,32): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  MostrarVector.cpp
+  main.cpp
+  matrix.cpp
+C:\Users\andre\source\repos\F.I\F.I\matrix.cpp(47,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\andre\source\repos\F.I\F.I\matrix.cpp(57,32): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+  temps.cpp
+  Generando código...
+  F.I.vcxproj -> C:\Users\andre\source\repos\F.I\x64\Debug\F.I.exe
